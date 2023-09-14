@@ -12,7 +12,7 @@ function App() {
         <h1>Puppy Pals</h1>
         { 
    puppies.map((puppy) => {
-     return <p>{puppy.name}</p>
+     return <p key={puppy.id}>{puppy.name}</p>
    })
 }
       </div>
