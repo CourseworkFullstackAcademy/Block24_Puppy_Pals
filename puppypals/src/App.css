@@ -1,0 +1,10 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+  }
+
+#title {
+font-weight: bolder;
+font-size: 8rem;
+margin-bottom: 5rem;
+}
